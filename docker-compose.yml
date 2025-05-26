@@ -1,0 +1,154 @@
+services:
+  # שירות קיים Service Appointment
+  service-appointment:
+    build:
+      context: ./backend-dotnet/Microservices/ServiceAppointment
+      dockerfile: Dockerfile
+    container_name: service-appointment
+    ports:
+      - "5001:8080"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - backend-network
+    volumes:
+      - ./backend-dotnet/Microservices/ServiceAppointment/logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # שירות Authentication
+  authentication:
+    build:
+      context: ./backend-dotnet/Microservices/Authentication
+      dockerfile: Dockerfile
+    container_name: authentication
+    ports:
+      - "5006:8080"  # פורט חדש
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - backend-network
+    volumes:
+      - ./backend-dotnet/Microservices/Authentication/logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # שירות branch-management
+  branch-management:
+    build:
+      context: ./backend-dotnet/Microservices/BranchManagement.API
+      dockerfile: Dockerfile
+    container_name: branch-management
+    ports:
+      - "5002:8080"
+    depends_on:
+      - postgres
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - backend-network
+    volumes:
+      - ./backend-dotnet/Microservices/BranchManagement.API/logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # שירות Angular
+  angular-app:
+    build:
+      context: ./frontend-angular/Angular/angular-appointment-system  # הנתיב הנכון לתיקיית Angular שלך
+      dockerfile: Dockerfile
+    container_name: angular-app
+    ports:
+      - "4200:4200"  # הפורט בו Angular רץ
+    depends_on:
+      - service-appointment  # Angular תלוי בשירותים אלה
+      - authentication
+      - branch-management
+    networks:
+      - backend-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4200/health"]  # או endpoint אחר אם יש
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # שירות ה־Postgres
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/init-db/create-multiple-dbs.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - backend-network
+
+  # RabbitMQ
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin123
+    networks:
+      - backend-network
+
+  # Redis
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - backend-network
+
+  # שירות ה־Notification Service
+  notification-service:
+    build:
+      context: ./backend-dotnet/Microservices/NotificationService.API
+      dockerfile: Dockerfile
+    container_name: notification-service
+    ports:
+      - "5004:8080"
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - backend-network
+    volumes:
+      - ./backend-dotnet/Microservices/NotificationService.API/logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  backend-network:
+
+volumes:
+  pgdata:

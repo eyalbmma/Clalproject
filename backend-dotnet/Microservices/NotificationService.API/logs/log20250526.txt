@@ -1,0 +1,90 @@
+2025-05-26 04:11:02.085 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 04:11:02.554 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 04:11:02.566 +00:00 [INF] Hosting environment: Development
+2025-05-26 04:11:02.576 +00:00 [INF] Content root path: /app
+2025-05-26 04:30:48.527 +00:00 [INF] Application is shutting down...
+2025-05-26 07:02:02.156 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 07:02:02.268 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 07:02:02.273 +00:00 [INF] Hosting environment: Development
+2025-05-26 07:02:02.274 +00:00 [INF] Content root path: /app
+2025-05-26 07:21:59.837 +00:00 [INF] Application is shutting down...
+2025-05-26 07:22:04.187 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 07:22:04.332 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 07:22:04.339 +00:00 [INF] Hosting environment: Development
+2025-05-26 07:22:04.341 +00:00 [INF] Content root path: /app
+2025-05-26 07:27:49.906 +00:00 [INF] Application is shutting down...
+2025-05-26 07:50:49.407 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 07:50:49.669 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 07:50:49.673 +00:00 [INF] Hosting environment: Development
+2025-05-26 07:50:49.674 +00:00 [INF] Content root path: /app
+2025-05-26 07:59:28.079 +00:00 [INF] Application is shutting down...
+2025-05-26 07:59:31.774 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 07:59:32.057 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 07:59:32.070 +00:00 [INF] Hosting environment: Development
+2025-05-26 07:59:32.071 +00:00 [INF] Content root path: /app
+2025-05-26 08:07:23.851 +00:00 [INF] Application is shutting down...
+2025-05-26 08:24:59.331 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 08:24:59.451 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 08:24:59.455 +00:00 [INF] Hosting environment: Development
+2025-05-26 08:24:59.457 +00:00 [INF] Content root path: /app
+2025-05-26 09:45:31.492 +00:00 [INF] Application is shutting down...
+2025-05-26 11:14:44.346 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 11:14:44.527 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 11:14:44.531 +00:00 [INF] Hosting environment: Development
+2025-05-26 11:14:44.533 +00:00 [INF] Content root path: /app
+2025-05-26 11:41:40.369 +00:00 [INF] Application is shutting down...
+2025-05-26 11:52:42.264 +00:00 [INF] Sending notification of type  to 
+2025-05-26 11:52:42.256 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 11:52:42.477 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 11:52:42.481 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 11:52:42.481 +00:00 [INF] Hosting environment: Development
+2025-05-26 11:52:42.483 +00:00 [INF] Content root path: /app
+2025-05-26 11:52:42.484 +00:00 [INF] Sending notification of type  to 
+2025-05-26 11:52:42.488 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 12:01:15.436 +00:00 [INF] Sending notification of type  to 
+2025-05-26 12:01:15.438 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 12:04:17.784 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2025-05-26 12:04:18.088 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 306.1211ms
+2025-05-26 12:04:18.566 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - null null
+2025-05-26 12:04:18.573 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - null null
+2025-05-26 12:04:18.573 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-26 12:04:18.664 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-05-26 12:04:18.664 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-26 12:04:18.689 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 115.1784ms
+2025-05-26 12:04:18.689 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - 200 143943 text/css 123.5805ms
+2025-05-26 12:04:18.691 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-26 12:04:18.726 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 152.4657ms
+2025-05-26 12:04:19.731 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/health - null null
+2025-05-26 12:04:19.753 +00:00 [WRN] Failed to determine the https port for redirect.
+2025-05-26 12:04:19.769 +00:00 [INF] Executing endpoint 'Health checks'
+2025-05-26 12:04:19.822 +00:00 [INF] Executed endpoint 'Health checks'
+2025-05-26 12:04:19.834 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/health - 200 null text/plain 103.5872ms
+2025-05-26 12:04:20.080 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - null null
+2025-05-26 12:04:20.083 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-05-26 12:04:20.085 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - 200 628 image/png 4.7816ms
+2025-05-26 12:04:20.321 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2025-05-26 12:04:20.675 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 353.9262ms
+2025-05-26 12:04:21.137 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - null null
+2025-05-26 12:04:21.140 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - 404 0 null 3.3254ms
+2025-05-26 12:04:21.144 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/favicon.ico, Response status code: 404
+2025-05-26 12:46:57.533 +00:00 [INF] Application is shutting down...
+2025-05-26 12:59:24.697 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-26 12:59:24.728 +00:00 [INF] Sending notification of type  to 
+2025-05-26 12:59:24.860 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-26 12:59:24.864 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 12:59:24.868 +00:00 [INF] Hosting environment: Development
+2025-05-26 12:59:24.875 +00:00 [INF] Content root path: /app
+2025-05-26 13:00:24.949 +00:00 [INF] Sending notification of type  to 
+2025-05-26 13:00:24.954 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 13:09:53.717 +00:00 [INF] Sending notification of type  to 
+2025-05-26 13:09:53.719 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 13:41:21.764 +00:00 [INF] Sending notification of type  to 
+2025-05-26 13:41:21.767 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 13:41:43.149 +00:00 [INF] Sending notification of type  to 
+2025-05-26 13:41:43.152 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 13:42:19.038 +00:00 [INF] Sending notification of type  to 
+2025-05-26 13:42:19.043 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 14:22:43.710 +00:00 [INF] Sending notification of type  to 
+2025-05-26 14:22:43.715 +00:00 [INF] Notification sent successfully to  with subject 
+2025-05-26 14:23:36.716 +00:00 [INF] Sending notification of type  to 
+2025-05-26 14:23:36.717 +00:00 [INF] Notification sent successfully to  with subject 
