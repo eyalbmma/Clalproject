@@ -1,6 +1,0 @@
-@ServiceAppointment_HostAddress = http://localhost:5179
-
-GET {{ServiceAppointment_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
