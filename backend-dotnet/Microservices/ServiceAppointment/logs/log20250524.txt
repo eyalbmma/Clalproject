@@ -1,0 +1,138 @@
+2025-05-24 04:51:00.484 +00:00 [INF] Application is shutting down...
+2025-05-24 04:52:54.450 +00:00 [INF] Executed DbCommand (134ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 04:52:55.683 +00:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-24 04:52:55.730 +00:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-24 04:52:55.741 +00:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-05-24 04:52:55.749 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 04:52:55.801 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-24 04:52:56.213 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-24 04:52:56.222 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-24 04:52:56.233 +00:00 [INF] Hosting environment: Development
+2025-05-24 04:52:56.235 +00:00 [INF] Content root path: /app
+2025-05-24 05:08:20.605 +00:00 [INF] Application is shutting down...
+2025-05-24 05:09:41.633 +00:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 05:09:42.544 +00:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-24 05:09:42.596 +00:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-24 05:09:42.601 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-05-24 05:09:42.605 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 05:09:42.626 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-24 05:09:42.862 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-24 05:09:42.871 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-24 05:09:42.875 +00:00 [INF] Hosting environment: Development
+2025-05-24 05:09:42.877 +00:00 [INF] Content root path: /app
+2025-05-24 05:21:20.320 +00:00 [INF] Application is shutting down...
+2025-05-24 05:23:07.462 +00:00 [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 05:23:08.346 +00:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-24 05:23:08.405 +00:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-24 05:23:08.423 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-05-24 05:23:08.442 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 05:23:08.471 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-24 05:23:08.905 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-24 05:23:08.924 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-24 05:23:08.926 +00:00 [INF] Hosting environment: Development
+2025-05-24 05:23:08.933 +00:00 [INF] Content root path: /app
+2025-05-24 05:44:48.636 +00:00 [INF] Application is shutting down...
+2025-05-24 05:45:58.809 +00:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 05:45:59.730 +00:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-24 05:45:59.767 +00:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-24 05:45:59.771 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-05-24 05:45:59.775 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 05:45:59.794 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-24 05:45:59.977 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-24 05:45:59.986 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-24 05:45:59.988 +00:00 [INF] Hosting environment: Development
+2025-05-24 05:45:59.990 +00:00 [INF] Content root path: /app
+2025-05-24 06:35:51.958 +00:00 [INF] Application is shutting down...
+2025-05-24 06:36:03.249 +00:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 06:36:04.082 +00:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-24 06:36:04.106 +00:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-24 06:36:04.110 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-05-24 06:36:04.113 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 06:36:04.129 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-24 06:36:04.306 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-24 06:36:04.313 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-24 06:36:04.315 +00:00 [INF] Hosting environment: Development
+2025-05-24 06:36:04.316 +00:00 [INF] Content root path: /app
+2025-05-24 19:02:38.738 +00:00 [INF] Application is shutting down...
+2025-05-24 19:04:49.905 +00:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 19:04:51.023 +00:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-05-24 19:04:51.062 +00:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-05-24 19:04:51.080 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-05-24 19:04:51.089 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-05-24 19:04:51.113 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-05-24 19:04:51.368 +00:00 [INF] Now listening on: http://[::]:8080
+2025-05-24 19:04:51.376 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-24 19:04:51.378 +00:00 [INF] Hosting environment: Development
+2025-05-24 19:04:51.379 +00:00 [INF] Content root path: /app
